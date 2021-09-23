@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+img{
+    width: 100%;
+}
+body{
+    font-size: 14px;
+}
+header{
+    margin: 0 auto;
+
+}
+
+nav{}
+.logo{}
+.logo img{
+    width: 350px;
+    height: 200px;
+}
+.menu{}
+.menu ul{}
+.menu ul li{}
+.menu ul li a{}
+.menu ul li a:hover{}
