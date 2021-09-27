@@ -65,3 +65,52 @@ img{
 }
 .banner{}
 .banner img{}
+
+
+.single-services{}
+.title{
+    text-align: center;
+    font-size: 45px;
+    text-transform: capitalize;
+    margin: 30px 0;
+}
+.service{
+    float: left;
+    width: 403px;
+    margin-right: 20px;
+    padding: 30px;
+    background-color: darkcyan;
+
+}
+.service:last-child{
+    margin-right: 0;
+}
+.service h4{
+    font-size: 30px;
+    text-transform: capitalize;
+    text-align: center;
+    margin: 20px 0;
+    color: white;
+    
+}
+.service img{
+}
+.service p{
+    font-size: 15px;
+    color: whitesmoke;
+}
+.service a{}
+.btn{
+    text-decoration: none;
+    text-transform: capitalize;
+    padding: 20px 30px;
+    background-color: tomato;
+    display: inline-block;
+    margin-top: 15px;
+    font-size: 20px;
+    color: whitesmoke;
+    transition: .3s;
+}
+.btn:hover{
+    background-color: rgb(197, 41, 14);
+}
