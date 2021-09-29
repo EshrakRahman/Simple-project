@@ -23,7 +23,7 @@ main{
     margin: 0 auto;
 }
 .header {
-    background-color: #8b8888;
+    background-color: #e2d5d5;
     padding: 20px;
 }
 img{
@@ -73,6 +73,7 @@ img{
     font-size: 45px;
     text-transform: capitalize;
     margin: 30px 0;
+    display: block;
 }
 .service{
     float: left;
@@ -80,7 +81,6 @@ img{
     margin-right: 20px;
     padding: 30px;
     background-color: darkcyan;
-
 }
 .service:last-child{
     margin-right: 0;
@@ -113,4 +113,54 @@ img{
 }
 .btn:hover{
     background-color: rgb(197, 41, 14);
+}
+
+.about{
+    margin: 30px 0;
+}
+.about-left{
+    width: 80%;
+    float: left;
+}
+.about-left h3, .about-menu h3{
+    font-size: 30px;
+    padding-bottom: 20px;
+    font-weight: bold;
+}
+.about-left p{
+    padding-bottom: 20px;
+}
+.about-menu{
+    width: 20%;
+    float: left;
+    padding-left: 20px;
+}
+.about-menu ul{
+}
+.about-menu ul li{
+    background-image: url(../images/arrow.png);
+    background-repeat: no-repeat;
+    margin-bottom: 10px;
+    border-bottom: 2px solid rgb(180, 176, 176);
+
+
+}
+.about-menu ul li a{
+    text-decoration: none;
+    font-size: 18px;
+    padding-left: 30px;
+}
+.about-menu ul li a:hover{
+    color: tomato;
+}
+
+footer{
+    height: 80px;
+    background-color: darkcyan;
+}
+footer h3{
+    color: whitesmoke;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 20px;
 }
