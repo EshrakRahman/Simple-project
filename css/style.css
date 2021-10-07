@@ -75,8 +75,13 @@ img{
     padding: 30px;
     background-color: darkcyan;
 }
-.service:last-child{
+
+.service:last-child, .service-page .service:nth-child(4){
     margin-right: 0;
+}
+.service-page .service{
+    width: 297.5px;
+    margin-bottom: 50px;
 }
 .service h4{
     font-size: 30px;
