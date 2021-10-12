@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,600;1,700;1,800&display=swap');
+
+
 *{
     margin: 0;
     box-sizing: border-box;
@@ -16,6 +19,10 @@ ul{
 body{
     font-size: 14px;
     line-height: 22px;
+    font-family: 'Open Sans', sans-serif;
+}
+h1, h2, h3, h4{
+    font-weight: 700;
 }
 
 main{
@@ -272,6 +279,5 @@ form{
     padding-bottom: 10px;
     margin-top: 10px;
 }
-.contact-address ul{
-    
+.contact-address i{
 }
