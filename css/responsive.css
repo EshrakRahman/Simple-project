@@ -1,0 +1,41 @@
+@media only screen and (min-width: 992px) and (max-width: 1270px) {
+    main{
+        width: 992px;
+    }
+  .header{
+      padding: 5px;
+  }
+  .logo{
+      width: 200px;
+  }
+  .menu{
+      float: right;
+      width: 750px;
+
+  }
+  .menu ul{
+      margin-top: 5px;
+  }
+  .menu ul li a{
+      font-size: 18px;
+  }
+  .title{
+      font-size: 40px;
+  }
+  .service:first-child{
+      margin-left: 24px;
+  }
+  .service{
+      width: 301px;
+  }
+  .about-left{
+      width: 70%;
+      margin-left: 20px;
+  }
+  .about-right{
+      width: 24%;
+  }
+  .about-left h3, .about-menu h3{
+      font-size: 26px;
+  }
+}
